@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="codemirror/lib/codemirror.css" />
+    <link rel="stylesheet" href="codemirror/theme/darcula.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <a href="#map"><li>map</li></a>
+        <a href="#reduce"><li>reduce</li></a>
+        <a href="#filter"><li>filter</li></a>
+        <a href="#find"><li>find</li></a>
+        <a href="#findindex"><li>findindex</li></a>
+      </ul>
+    </nav>
+
+    <header id="header">
+      <h1>Карточка методов массива</h1>
+    </header>
+
+    <div class="Metods">
+      <pre class="initialArray initialMapCard"></pre>
+      <div class="map4 code-map" id="map"></div>
+      <pre class="initialArray resultMapCard"></pre>
+    </div>
+    <div class="Metods">
+      <pre class="initialArray initialFilterCard"></pre>
+      <div class="code-filter" id="filter"></div>
+      <pre class="initialArray resultFilterCard"></pre>
+    </div>
+
+    <div class="Metods">
+      <pre class="initialArray initialReduceCard"></pre>
+      <div class="code-reduce" id="reduce"></div>
+      <pre class="initialArray resultReduceCard"></pre>
+    </div>
+
+    <div class="Metods">
+      <pre class="initialArray initialFindCard"></pre>
+      <div class="code-find" id="find"></div>
+      <pre class="initialArray resultFindCard"></pre>
+    </div>
+
+    <div class="Metods">
+      <pre class="initialArray initialFindIndexCard"></pre>
+      <div class="code-findIndex" id="findindex"></div>
+      <pre class="initialArray resultFindIndexCard"></pre>
+    </div>
+
+    <script src="codemirror/mode/javascript/javascript.js"></script>
+    <script src="codemirror/lib/codemirror.js"></script>
+    <script src="codemirror/mode/groovy/groovy.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
